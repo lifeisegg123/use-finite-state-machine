@@ -1,0 +1,55 @@
+{
+  "name": "use-finite-state-machine",
+  "version": "0.0.1",
+  "description": "finite state machine for react",
+  "main": "index.js",
+  "sideEffects": false,
+  "author": {
+    "name": "lifeisegg123",
+    "email": "leejj2002@naver.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lifeisegg123/use-finite-state-machine/issues"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.2.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifeisegg123/use-finite-state-machine"
+  },
+  "keywords": [
+    "react",
+    "use-finite-state-machine",
+    "finite state machine",
+    "fsm",
+    "state machine",
+    "useStateMachine"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "dev": "rollup -c ./rollup.config.js -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.8",
+    "@swc/jest": "^0.2.23",
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.1.2",
+    "@types/react": "^18.0.21",
+    "@types/use-sync-external-store": "^0.0.3",
+    "esbuild": "^0.15.11",
+    "jest": "^29.2.0",
+    "jest-environment-jsdom": "^29.2.0",
+    "react": "^18.2.0",
+    "rollup": "^3.2.0",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-esbuild": "^4.10.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "use-sync-external-store": "^1.2.0"
+  }
+}
